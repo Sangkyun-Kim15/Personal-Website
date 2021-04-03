@@ -40,8 +40,8 @@
  <div>
  	<c:choose>
  		<c:when test="${sessionScope.id eq board.writer || sessionScope.id eq 'admin'}">
- 			<a href="<%=request.getContextPath() %>/board/updateForm.do?boardNo=${board.boardNo}">게시글 수정</a>
- 			<a href="<%=request.getContextPath() %>/board/delete.do?boardNo=${board.boardNo}">게시글 삭제</a>
+ 			<a href="<%=request.getContextPath() %>/board/updateForm.do?boardNo=${board.boardNo}">Update</a>
+ 			<a href="<%=request.getContextPath() %>/board/delete.do?boardNo=${board.boardNo}">Delete</a>
  		</c:when>
  	</c:choose>
  </div>

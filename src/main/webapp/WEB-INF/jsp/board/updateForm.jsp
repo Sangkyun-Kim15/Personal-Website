@@ -18,30 +18,30 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<h2>게시글 등록</h2>
+	<h2>Updating</h2>
 	<form method="post" action="<%=request.getContextPath()%>/board/update.do">
 		<input type="hidden" name="boardNo" value="${board.boardNo}">
 		<div class="form-group row">
-			<label for="inputEmail3" class="col-sm-2 col-form-label">제목</label>
+			<label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
 			<div class="col-sm-10">
-				<input type="text" name="title" value='<c:out value="${ board.title }"/>' class="form-control" placeholder="제목" >
+				<input type="text" name="title" value='<c:out value="${ board.title }"/>' class="form-control" placeholder="Title" >
 			</div>
 		</div>
 		<div class="form-group row">
-			<label for="inputEmail3" class="col-sm-2 col-form-label">글쓴이</label>
+			<label for="inputEmail3" class="col-sm-2 col-form-label">Writer</label>
 			<div class="col-sm-10">
-				<input type="text" name="writer" value='<c:out value="${ board.writer}"/>' class="form-control" placeholder="글쓴이" readonly>
+				<input type="text" name="writer" value='<c:out value="${ board.writer}"/>' class="form-control" placeholder="Writer" readonly>
 			</div>
 		</div>
 		<div class="form-group row">
-			<label for="inputEmail3" class="col-sm-2 col-form-label">내용</label>
+			<label for="inputEmail3" class="col-sm-2 col-form-label">Content</label>
 			<div class="col-sm-10">
-				<input type="text" name="content" value='<c:out value="${ board.content }"/>' class="form-control" placeholder="내용">
+				<input type="text" name="content" value='<c:out value="${ board.content }"/>' class="form-control" placeholder="Content">
 			</div>
 		</div>
 		<div class="form-group row">
     		<div class="col-sm-10">
-    			<button type="submit" class="btn btn-primary">수정</button>
+    			<button type="submit" class="btn btn-primary">Update</button>
     		</div>
     	</div>
 	</form>

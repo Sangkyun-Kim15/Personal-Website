@@ -39,6 +39,6 @@
 		</c:forEach>
 	</table>
 		<br/>
-		<a href="<%=request.getContextPath() %>/board/insertForm.do">±Ûµî·Ï</a>
+		<a href="<%=request.getContextPath() %>/board/insertForm.do">Add</a>
 </body>
 </html>

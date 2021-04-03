@@ -26,25 +26,25 @@
 	<form name="sform" action="<%=request.getContextPath() %>/login/insert.do" method="post" >
 	<table  width="600px" align="center">
 			<tr> 
-			<th width="" align="right"><font color="red">*</font> 이름 </th> <td> <input type="text"  name="name" id="name"/>    </td>
+			<th width="" align="right"><font color="red">*</font> Name </th> <td> <input type="text"  name="name" id="name"/>    </td>
 			</tr>
 
 			<tr> 
-			<th width="" align="right">아이디 </th> <td> <input type="text"  name="id" id="id"  />&nbsp;  <span id="sid" ></span> </td>
+			<th width="" align="right">Username </th> <td> <input type="text"  name="id" id="id"  />&nbsp;  <span id="sid" ></span> </td>
 			</tr>
 
 			<tr> 
-			<th width="" align="right">비밀번호 </th> <td> <input type="password"  name="password" id="password"/></td>
+			<th width="" align="right">Password </th> <td> <input type="password"  name="password" id="password"/></td>
 			</tr>
 
 			<tr> 
-			<th width="" align="right">비밀번호 확인 </th> <td> <input type="password"   name="passwordcheck" id="passwordcheck" /><span></span>  </td>
+			<th width="" align="right">Check Password </th> <td> <input type="password"   name="passwordcheck" id="passwordcheck" /><span></span>  </td>
 			</tr>
 			
 			<tr> 
-			<th width="" align="right">이메일 </th> <td> <input type="text"   name="email" id="email"/>&nbsp; 
+			<th width="" align="right">Email </th> <td> <input type="text"   name="email" id="email"/>&nbsp; 
 				<select>
-					 <option value="1">직접입력</option>
+					 <option value="1">Select</option>
 					 <option>naver.com</option>
 					 <option>daum.net</option>
  					 <option>gmail.com</option>	 				
@@ -53,7 +53,7 @@
 			</tr>			
 
 			<tr> 
-			<th width="" align="center" colspan="2"> <input type="submit" value="다음"> <input type="button"  value="취소" />  </th>
+			<th width="" align="center" colspan="2"> <input type="submit" value="Next"> <input type="button"  value=""Cancel />  </th>
 			</tr>			
 			
 	</table>

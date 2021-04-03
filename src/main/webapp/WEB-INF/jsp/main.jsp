@@ -386,7 +386,7 @@ body {
 	<nav class="nav">
         <div class="container">
             <div class="logo">
-                <a href="#">Test Board</a>
+                <a href="#">Home</a>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
@@ -396,10 +396,14 @@ body {
                     		<li><a href="<%=request.getContextPath() %>/login/signUp.do">Sign up</a></li>
                     	</c:when>
                     	<c:otherwise>
-							<li><a href="<%=request.getContextPath() %>/board/select.do">Board</a></li>
+							
 							<li><a href="<%=request.getContextPath() %>/login/logout.do?id=${sessionScope.id}">Logout</a></li>
 						</c:otherwise>
 				 	</c:choose>
+				 	<li><a href="<%=request.getContextPath() %>/board/select.do">Board</a></li>
+				 	<li><a href="https://github.com/sabackwon">Github</a></li>
+				 	<li><a href="https://www.linkedin.com/in/sangkyunkim/">Linkedin</a></li>
+				 	<li><a href="">Resume</a></li>
                 </ul>
             </div>
             <span class="navTrigger">
@@ -414,7 +418,7 @@ body {
     </section>
     <div style="height: 1000px">
         <!-- just to make scrolling effect possible -->
-			<h2 class="myH2">What is this ?</h2>
+			<h2 class="myH2">Sangkyun Kim</h2>
 			<p class="myP">This is a responsive fixed navbar animated on scroll</p>
 			<p class="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
 			and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>

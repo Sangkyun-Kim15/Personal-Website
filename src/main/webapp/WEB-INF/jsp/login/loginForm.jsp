@@ -74,7 +74,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 // 쿠키 관련 아직 안됨
 $(document).ready(function () {
 
-  // 아이디와 비번 확인
+  // Check Id and password
 	$("#log").click(function(){
 	  $.ajax({
 	  type: "POST",
@@ -92,7 +92,7 @@ $(document).ready(function () {
         };
       });
       if(num == 0){
-      alert("아이디와 비밀번호를 확인하세요");              
+      alert("Check your id and password");              
       }      
     });    		  
 	}); 
