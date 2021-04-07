@@ -36,9 +36,9 @@
 	<!-- mySQL DBCP 사용 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close" p:driverClassName="com.mysql.jdbc.Driver"
-		p:url="jdbc:mysql://mywebsite.ce4fgf0b9skk.us-east-2.rds.amazonaws.com:3306/test_db" 
-		p:username="root"
-		p:password="adminadmin" />
+		p:url="jdbc:mysql://url" 
+		p:username="type username"
+		p:password="type password" />
 
 	<!-- 트랜잭션 처리 -->
 	<bean id="transactionManager"
